@@ -21,6 +21,7 @@ def now_serving(array)
  case array.size
  when 0
     puts "There is nobody waiting to be served!"
+  end 
 
 
 end
