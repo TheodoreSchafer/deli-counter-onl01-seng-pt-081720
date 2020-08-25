@@ -20,7 +20,7 @@ end
 def now_serving(array)
  case array.size
  when 0
-    puts "Currently serving Logan."
+    puts "There is nobody waiting to be served!"
 
 
 end
