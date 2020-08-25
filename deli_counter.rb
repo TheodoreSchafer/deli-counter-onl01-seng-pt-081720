@@ -12,6 +12,7 @@ final += " #{index}. #{customer}"
 end
 
 def take_a_number(array, name)
+  
  case array.size
  when 0
    welcome = "Welcome, "
