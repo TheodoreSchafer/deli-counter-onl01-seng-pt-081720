@@ -16,7 +16,7 @@ def take_a_number(array, name)
  when 0
    puts "Welcome, #{name}. You are number 1 in line."
 
-   array.each do |customer|
+  
 
     end
 
