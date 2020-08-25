@@ -18,7 +18,8 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-
+ case array.size
+ when 0
     puts "Currently serving Logan."
 
 
