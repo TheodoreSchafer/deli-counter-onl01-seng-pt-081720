@@ -15,7 +15,7 @@ def take_a_number(array, name)
  case array.size
  when 0
    puts "Welcome, #{name}. You are number 1 in line."
-   array << 
+   array << name
   end
 
 end
