@@ -17,11 +17,14 @@ def take_a_number(array, name)
 
 end
 
-def now_serving(array)
- case array.size
- when 0
+def now_serving(line)
+ if line.length == 0
     puts "There is nobody waiting to be served!"
-  end 
+  else
+    puts "Currently serving #{line[0]}"
+    line.shift
+  end
+else
 
 
 end
