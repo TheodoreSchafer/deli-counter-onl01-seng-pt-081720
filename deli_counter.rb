@@ -11,8 +11,8 @@ final += " #{index}. #{customer}"
     end
 end
 
-def take_a_number(array, name)
-  puts "Welcome, #{name}. You are number 1 in line."
+def take_a_number(line, name)
+  puts "Welcome, #{name}. You are number #{line.length} in line."
    array << name
 
 end
@@ -21,7 +21,7 @@ def now_serving(line)
  if line.length == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{line[0]}"
+    puts "Currently serving #{line[0]}."
     line.shift
   end
 end
