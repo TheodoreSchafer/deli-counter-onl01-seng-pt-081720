@@ -15,7 +15,7 @@ def take_a_number(array, name)
 
    puts "Welcome, #{name}. You are number 1 in line."
    array << name
-  end
+  
 
 end
 
